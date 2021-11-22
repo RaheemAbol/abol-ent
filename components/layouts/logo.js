@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
-const Logobox = styled.span`
+const LogoBox = styled.span`
   font-weight: bold;
   font-size: 18px;
   display: inline-flex;
@@ -16,3 +16,25 @@ const Logobox = styled.span`
     transform: rotate(20deg);
   }
 `
+
+const Logo = () => {
+  const footPrintImg = `/public/images/santoriniNight{useColorModeValue('', '-dark') }.jpg`
+
+  return (
+    <Link href="/">
+      <a>
+        <LogoBox>
+          <Image src={footPrintImg} width={20} heigh={20} alt="logo" />
+          <Text
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            fontFamily="M PLUS Rounded 1c"
+            fontWeight="bold"
+            ml={3}
+          >
+            Raheem Abolfathzadeh
+          </Text>
+        </LogoBox>
+      </a>
+    </Link>
+  )
+}
