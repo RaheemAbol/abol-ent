@@ -47,7 +47,14 @@ const Navbar = props => {
       zIndex={1}
       {...props}
     >
-      Navbar
+      <Container
+        display="flex"
+        p={2}
+        maxW="container.md"
+        wrap="wrap"
+        align="center"
+        justify="space-between"
+      ></Container>
     </Box>
   )
 }
