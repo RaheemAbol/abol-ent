@@ -46,6 +46,10 @@ const Navbar = props => {
       style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
-    ></Box>
+    >
+      Navbar
+    </Box>
   )
 }
+
+export default Navbar
