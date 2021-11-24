@@ -14,7 +14,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { HamburgerIcon, SunIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
@@ -56,7 +56,8 @@ const Navbar = props => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}></Heading>
-          <h1>Raheem Abolfathzadeh</h1>
+          <SunIcon />
+          <h1>ABOL-ENT</h1>
         </Flex>
       </Container>
     </Box>
