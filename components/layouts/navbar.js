@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NextLink from 'next/link'
 import {
   Container,
@@ -56,9 +55,8 @@ const Navbar = props => {
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-            <FontAwesomeIcon />
-          </Heading>
+          <Heading as="h1" size="lg" letterSpacing={'tighter'}></Heading>
+          <h1>Raheem Abolfathzadeh</h1>
         </Flex>
       </Container>
     </Box>
