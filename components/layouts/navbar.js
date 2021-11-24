@@ -59,6 +59,7 @@ const Navbar = props => {
           <SunIcon />
           <h1>ABOL-ENT</h1>
         </Flex>
+        <Stack></Stack>
       </Container>
     </Box>
   )
