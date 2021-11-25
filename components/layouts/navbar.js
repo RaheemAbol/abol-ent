@@ -59,7 +59,7 @@ const Navbar = props => {
           <SunIcon />
           <h1>ABOL-ENT</h1>
         </Flex>
-        <Stack></Stack>
+        <Stack direction={{ base: 'column', md: 'row' }}></Stack>
       </Container>
     </Box>
   )
