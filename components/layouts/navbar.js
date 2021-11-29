@@ -62,6 +62,10 @@ const Navbar = props => {
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
+          width={{ base: 'full', md: 'auto' }}
+          alignItems="center"
+          flexGrow={1}
+          mt={{ base: 4, nmd: 0 }}
         ></Stack>
       </Container>
     </Box>
