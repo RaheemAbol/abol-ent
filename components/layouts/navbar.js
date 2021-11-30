@@ -74,6 +74,7 @@ const Navbar = props => {
             Posts
           </LinkItem>
         </Stack>
+
         <Box flex={1} align="right">
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
@@ -82,7 +83,12 @@ const Navbar = props => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
-              ></MenuButton>
+              />
+              <MenuList>
+                <NextLink href="/" passHref>
+                  <MenuItem as={Link}>About</MenuItem>
+                </NextLink>
+              </MenuList>
             </Menu>
           </Box>
         </Box>
