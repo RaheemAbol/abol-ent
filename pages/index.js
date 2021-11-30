@@ -12,7 +12,7 @@ const Page = () => {
           <Heading as="h2" varient="page-title">
             Raheem Abolfathzadeh
           </Heading>
-          <p>Software Engineer (Designer / Designer / Artist)</p>
+          <p>Software Engineer (Designer / Developer / Artist)</p>
         </Box>
       </Box>
     </Container>
